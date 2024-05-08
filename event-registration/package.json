@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build --base=./",
+    "predeploy": "tsc && vite build --base=./",
+    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest",
@@ -56,6 +58,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
     "jsdom": "^24.0.0",
     "redux-mock-store": "^1.5.4",
     "typescript": "^5.2.2",

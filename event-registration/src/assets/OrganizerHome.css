@@ -1,0 +1,22 @@
+.search-event-create-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 60vh;
+}
+
+.ag-theme-alpine-dark,
+.ag-theme-alpine {
+  height: 500px;
+  width: 100%;
+}

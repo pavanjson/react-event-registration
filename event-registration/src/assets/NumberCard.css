@@ -1,0 +1,12 @@
+.number-card {
+  margin: 3px;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 6vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-card-title {
+  font-size: 4vh;
+}

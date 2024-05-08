@@ -1,0 +1,4 @@
+VITE_API_GET_EVENTS_URL=https://localhost:7179/event-registration-event
+VITE_API_POST_SIGNUP_URL=https://localhost:7179/event-registration-users/signup
+VITE_API_GET_USER_INFO_URL=https://localhost:7179/event-registration-users/user-info
+VITE_API_POST_USER_SIGNIN_URL=https://localhost:7179/event-registration-users/signin

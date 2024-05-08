@@ -1,0 +1,50 @@
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --color: #000;
+  --bg-nav-color: #97e7e1;
+  --nav-link-color: #000;
+  --nav-link-hover-color: #cce7e8;
+  --home-para-color: #154c79;
+  --home-heading-color: #1e81b0;
+  --userForm-bg: #cce7e8;
+  --logo-color1: #b927fc;
+  --logo-color2: #2c64fc;
+  --radio-color: #000;
+  --button-text: #ffffff;
+  --alphabet-text: #154c79;
+  --alphabet-bg: #ffffff;
+  --alphabet-hover: #cce7e8;
+  --button-bg: #ffffff;
+}
+[data-theme="dark"] {
+  --bg-color: #333;
+  --color: #fff;
+  --nav-link-color: #fff;
+  --bg-nav-color: #000;
+  --nav-link-hover-color: #5260a0;
+  --home-para-color: #154c79;
+  --home-heading-color: #5260a0;
+  --userForm-bg: #5260a0;
+  --logo-color1: #aee3ee;
+  --logo-color2: #fdfcff;
+  --radio-color: #fff;
+  --button-text: #ffffff;
+  --alphabet-text: #ffffff;
+  --alphabet-bg: #5260a0;
+  --alphabet-hover: #cce7e8;
+  --button-bg: #1f2936;
+}
+
+.theme {
+  background-color: var(--bg-color);
+  color: var(--color);
+}
+
+.custom-tooltip {
+  white-space: normal;
+  max-width: 300px;
+}
+.theme-switch {
+  margin: 20px;
+  margin-right: 0;
+}
